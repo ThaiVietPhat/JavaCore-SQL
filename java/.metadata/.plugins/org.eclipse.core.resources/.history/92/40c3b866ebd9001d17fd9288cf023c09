@@ -1,0 +1,14 @@
+package ThucHanh;
+
+public class HinhChuNhat {
+public static int chuViHinhChuNhat(int x, int y) {
+	return (x+y)*2;
+	
+}
+public static int dienTichHinhChuNhat(int x, int y) {
+	int z=x*y;
+	return z;
+}
+
+
+}

@@ -1,0 +1,31 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class PhanLoaiTuoiNangCao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("May phan tich tuoi\n Dien tuoi ban muon phan loai vao day:");
+Scanner scan=new Scanner(System.in);
+float f=scan.nextFloat();
+
+}
+	public static void age(float f) {
+		if(f<1) {
+			System.out.println("tre so sinh");
+		}else if(f>1 && f<3) {
+			System.out.println("em be");
+		}else if(f>=3 && f<18) {
+			System.out.println("con nit con noi ia chua biet chui dit");
+		}else if(f>=18 && f<40 ) {
+			System.out.println("Nguoi lon");
+		}else if(f>=40 && f<60) {
+			System.out.println("Nguoi trung nien");
+		}else {
+			System.out.println("Nguoi gia");
+		}
+			
+	}
+
+}

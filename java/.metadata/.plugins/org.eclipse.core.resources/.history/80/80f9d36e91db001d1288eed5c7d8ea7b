@@ -1,0 +1,36 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class TracNghiemCuaThay {
+
+	public static void main(String[] args) {
+		
+
+			System.out.println("1 thang co bao nhieu ngay ?\n");
+			System.out.println("A. 30\tB. 31\nC. 29\tD. Ca 3 dap an tren");
+
+			Scanner scan = new Scanner(System.in);
+
+			String luaChon = scan.nextLine();
+
+			switch (luaChon.charAt(0)) {
+			case 'A':
+			case 'a':
+			case 'B':
+			case 'b':
+			case 'C':
+			case 'c': {
+				System.out.println("Dap an khong chinh xac.");
+				break;
+			}
+			case 'D':
+			case 'd':
+				System.out.println("\nBan da lua chon dung!!!");
+				break;
+			}
+			// default:
+			System.out.println("\nKet thuc");
+	}
+
+}

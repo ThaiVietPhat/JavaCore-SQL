@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class TinhToan {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner (System.in);
+		tong(scan.nextInt(),3.12);
+		hieu(scan.nextInt(),3.12);
+		tich(scan.nextInt(),3.12);
+		thuong(scan.nextInt(),3.12);
+	}
+	public static void tong(int a, int b) {
+		System.out.println("a+b= "+ a+b);
+	}
+	public static void tong(double a, double b) {
+		System.out.println("a+b= "+ (a+b));
+	}
+	public static void hieu(int a, int b) {
+		System.out.println("a-b= " + (a-b));
+	}
+	public static void hieu(double a, double b) {
+		System.out.println("a-b= "+(a-b));
+	}
+	public static void tich(int a, int b) {
+		System.out.println("a*b= "+ a*b);
+	}
+	public static void tich(double a, double b) {
+		System.out.println("a*b= "+ a*b);
+	}
+	public static void thuong(int a, int b) {
+		System.out.println("a/b= "+(a/b));
+		
+	}
+	public static void thuong(double a, double b) {
+		System.out.println("a/b= "+(a/b));
+	}
+
+}

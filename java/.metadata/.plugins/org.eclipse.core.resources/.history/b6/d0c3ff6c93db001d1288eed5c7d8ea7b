@@ -1,0 +1,17 @@
+package NhapNho;
+
+public class sdw {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i=3;
+	}
+public static int cc(int i){
+	
+	System.out.println(i);
+	return i;
+}
+public static void ccl {
+	System.out.println(i);
+}
+}

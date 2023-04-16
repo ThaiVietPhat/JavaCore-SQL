@@ -1,0 +1,34 @@
+package HamVaBien;
+
+public class TaoHam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int u=75;
+		int v=21;
+		System.out.println(tongHaiSo());
+		System.out.println(hieuHaiSo());
+		System.out.println(nhanHaiSo(u, v));
+		System.out.println(SO_PI);
+
+	}
+	//tao ham
+	public static int tongHaiSo() {
+		int x1=14;
+		int x2=12;
+		return x1+x2;
+	}
+	public static float hieuHaiSo() {
+		float f1=23.4f;
+		float f2=24.75f;
+		float f=f1+f2;
+		return f;
+	}
+	public static int nhanHaiSo(int u, int v) {
+		return u*v;
+		
+	}
+	//hang so
+	public static float SO_PI=3.14f;
+
+}

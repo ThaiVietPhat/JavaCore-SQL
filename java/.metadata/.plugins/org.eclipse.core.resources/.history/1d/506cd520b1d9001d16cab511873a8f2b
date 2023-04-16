@@ -1,0 +1,15 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class ToanTu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		
+		float f=scan.nextFloat();
+
+	}
+
+}

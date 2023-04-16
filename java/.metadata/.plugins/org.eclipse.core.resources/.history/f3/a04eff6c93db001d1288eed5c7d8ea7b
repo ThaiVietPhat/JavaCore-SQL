@@ -1,0 +1,19 @@
+package NhapNho;
+
+import java.util.Scanner;
+
+public class Nhap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		dienTichHinhTron(3.14f, scan.nextFloat());
+
+	}
+
+	public static void dienTichHinhTron(float soPi, float a) {
+		float s = soPi * a * a;
+		System.out.println(s);
+	}
+
+}

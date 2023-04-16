@@ -1,0 +1,16 @@
+package HamVaBien;
+
+import java.util.Scanner;
+
+public class NhapDuLieuTuBanPhim {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Vui long nhap gia tri :");
+		int i = scan.nextInt();
+		System.out.println("Gia tri cua i da nhap la:" + i);
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		int x=scan.nextInt();
+		if (x<=10) {
+			System.out.println("Gia tri cua x <=10");
+			
+		}else{
+			System.out.println("Gia tri cua x>10");
+			
+		
+		}
+		int y=scan.nextInt();
+		if (y>14) {
+			System.out.println("gia tri cua y>14");
+		}else if (5<y<=14) {
+			System.out.println("Gia tri cua y nam trong khoang(5;14)");
+		}else System.out.println("Gia tri cua y<=5");
+		
+		   
+	
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class TinhToan {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		tong(scan.nextFloat(), 3.13f);
+		float hieu=hieu(scan.nextFloat(), 23.4f);
+		System.out.println(hieu);
+	}
+    public static void tong(int a, int b) {
+    	System.out.println(a+b);
+    }
+    public static void tong(float a, float b) {
+    	float t=a+b;
+    	System.out.println(t);
+    }
+    public static int hieu(int a, int b) {
+    	int c=a+b;
+    	return c;
+    }
+    public static float hieu(float a, float b) {
+    	return a-b;
+    }
+}

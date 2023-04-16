@@ -1,0 +1,37 @@
+package LyThuyet;
+
+public class HamVaBien {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int x=32;
+    int y=50;
+    System.out.println("thang em cua toi bang ca 2 anh em nha ban cong lai, cu the la:" );
+    System.out.println(vanDeSinhLy(x,y));
+    int f1=32;
+    float f2=50.24f;
+    float f3=32.4f;
+    System.out.println(chinhXacHon(f1,f2));
+    System.out.println(caiKhacDe(f2,f3));
+    String s="AYE";
+    System.out.println(s);
+    System.out.println(v);
+	}
+
+
+public static int vanDeSinhLy(int x, int y) {
+	return x+y;
+}
+
+public static float chinhXacHon(int f1, float f2) {
+	return f1+f2;	
+}
+public static float caiKhacDe(float f2, float f3) {
+	float f=f3+f2;
+	return f;
+}
+ 
+public static final int v=234;
+
+
+}

@@ -1,0 +1,14 @@
+package NhapNho;
+
+import java.util.Scanner;
+
+public class Nhap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub	
+String ss="a"
+System.out.println(ss);
+
+	}
+
+}

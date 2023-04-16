@@ -1,0 +1,20 @@
+package HamVaBien;
+
+public class ToanTu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//toan tu can ban
+		int x=100;
+		int y=3;
+		int du=x%y;
+		System.out.println(du);
+		float f1=30.2f;
+		float f2=21.5f;
+		float thuong=f1/f2;
+		System.out.println(thuong);
+		
+
+	}
+
+}

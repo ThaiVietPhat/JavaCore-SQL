@@ -1,0 +1,27 @@
+package ChuViVaDienTich;
+
+import java.util.Scanner;
+
+public class HamMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Tinh chu vi va dien tich hinh chu nhat, hay nhap do dai 2 canh cua hinh chu nhat");
+		Scanner scan=new Scanner (System.in);
+		float x=scan.nextFloat();
+		float y=scan.nextFloat();
+		HinhChuNhat.chuVi(x, y);
+		HinhChuNhat.dienTich(x, y);	
+		System.out.println("Tinh chu vi va dien tich hinh vuong, hay nhap do dai 1 canh hinh vuong");
+		float a=scan.nextFloat();
+		HinhVuong.chuVi(a);
+		HinhVuong.dienTich(a);
+		System.out.println("Tinh chu vi va dien tich hinh tron, nhap ban kinh hinh tron:");
+		double r=scan.nextDouble();
+		HinhTron.chuVi(SO_PI, r);
+
+	}
+	public static final double SO_PI=3.14;
+
+}

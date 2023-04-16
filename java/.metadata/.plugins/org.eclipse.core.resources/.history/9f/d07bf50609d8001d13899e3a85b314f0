@@ -1,0 +1,14 @@
+
+public class Hang {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Dai the nay ai ma chiu duoc, tan" + DO_DAI);
+System.out.println("OMG!!!" + DO_DAI_CHINH_XAC);
+System.out.println("ho li shit"+CAM_XUC);
+
+	}
+public static final int DO_DAI=50;
+public static final float DO_DAI_CHINH_XAC=50.55f;
+public static final String CAM_XUC="suong!!!";
+}
+

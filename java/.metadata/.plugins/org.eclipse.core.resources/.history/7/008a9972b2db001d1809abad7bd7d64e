@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class TimMinMax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		int c=scan.nextInt();
+		
+
+	}
+	public static void minMax(int a, int b, int c) {
+		if(a<b && b<c) {
+			System.out.println("Max="+c);
+			System.out.println("Min="+a);
+		}if(b<a && a<c) {
+			System.out.println("Max="+c);
+			System.out.println("Min"+b);
+		}if(b
+	}
+
+}

@@ -1,0 +1,32 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class PhanLoaiDoTuoi {
+
+	public static void main(String[] args) {
+System.out.println("May phan loai do tuoi\n Do tuoi ban muon kiem tra la:");
+Scanner scan=new Scanner(System.in);
+float age=scan.nextFloat();
+if (age<1) {
+	System.out.println("tre so sinh");
+}else if (age==1) {
+	System.out.println("em be");
+}else if(age <=3) {
+	System.out.println("em be");
+}else if(age <=18) {
+	System.err.println("tre em");
+}else if (age<=40) {
+	System.out.println("nguoi lon");
+}else if(age <60) {
+	System.out.println("Trung nien");
+	
+}else if(age==60) {
+	System.out.println("Nguoi gia");
+}else {
+	System.out.println("nguoi gia");
+}
+
+}
+
+}

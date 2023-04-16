@@ -1,0 +1,23 @@
+
+public class Ham {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+	}
+	public static int tongHaiSo() {
+		int x=10;
+		int y=5;
+		int tong= x+y;
+		return tong;
+	}
+   //Ham voi doi so truyen vao
+	public static int hieuHaiSo(int x, int y) {
+		int Hieu=x-y;
+		return Hieu;
+		
+		
+	}
+	//Ham khong co gia tri tra ve
+	pub
+}

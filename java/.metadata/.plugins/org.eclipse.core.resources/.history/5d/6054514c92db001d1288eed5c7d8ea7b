@@ -1,0 +1,26 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class TracNghiem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Cau hoi sieu tri tue: 1+1=?");
+System.out.println("Dap an 0:1 Dap an 1:2 Dap an2:3 Dap an 3:4");
+Scanner scan=new Scanner(System.in);
+int a = scan.nextInt();
+if(a==0) {
+	System.out.println("Sai, 2 la dap an dung");
+}else if(a==1) {
+	System.out.println("1 la dap an gan dung, nhung sai. 2 la dap an dung");
+}else if(a==2) {
+	System.out.println("2 la dap an dung. Chuc mung");
+}else if(a==3) {
+	System.out.println("3 la dap an rat sai, ban k nen hoc nua, ve chan bo di");
+}else {
+	System.out.println("ban chon khong chinh xac dap an, co moi 1 2 3 4 thoi ma cung de chon sai, kem khong chiu dc");
+}
+	}
+
+}

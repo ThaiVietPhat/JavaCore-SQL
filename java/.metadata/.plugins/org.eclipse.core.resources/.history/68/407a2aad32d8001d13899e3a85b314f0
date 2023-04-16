@@ -1,0 +1,44 @@
+
+public class ChuViDientTich {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int canhHinhVuong=50;
+		int chieuDai=28;
+		int chieuRong=13;
+		float soPi=3.14f;
+		float banKinh=24;
+		System.out.println("Chu Vi Hinh Vuong=" +chuViHinhVuong(canhHinhVuong));
+		
+
+	}
+public static int chuViHinhVuong(int canhHinhVuong) {
+	int chuVi=canhHinhVuong*2;
+	return chuVi;
+	
+}
+public static int dienTichHinhVuong(int canhHinhVuong) {
+	int dienTich=canhHinhVuong*canhHinhVuong;
+	return dienTich;
+	
+}
+public static int chuViHinhChuNhat(int chieuDai,int chieuRong) {
+	int chuVi=(chieuDai+chieuRong)*2;
+	return chuVi;
+}
+public static int dienTichHinhChuNhat(int chieuDai, int chieuRong) {
+	int dienTich=chieuDai*chieuRong;
+	return dienTich;
+	
+}
+public static float chuViHinhTron(float soPi,float banKinh) {
+	float chuVi=2*soPi*banKinh;
+	return chuVi;
+	
+}
+public static float dienTichHinhTron(float soPi,float banKinh) {
+	float dienTich=soPi*banKinh*banKinh;
+	return dienTich;
+}
+}
+

@@ -1,0 +1,24 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class TracNghiemChuan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Phat co dep trai khong");
+System.out.println("A.co   B.khong  C.tam duoc  D.oppa");
+Scanner scan=new Scanner(System.in);
+String s=scan.next();
+switch (s.charAt(0)) {
+case s='a':
+case s='b':
+case s='c':
+System.out.println("Cau tra loi sai me doi, k dung dau");
+break;
+case s='d':System.out.println("dung chinh xac, ban qua thong minh");
+
+}
+	}
+
+}

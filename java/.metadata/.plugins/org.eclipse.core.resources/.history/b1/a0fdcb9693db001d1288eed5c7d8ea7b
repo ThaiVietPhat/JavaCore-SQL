@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class TimMinMax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		float a=scan.nextFloat();
+		float b=scan.nextFloat();
+		float c=scan.nextFloat();
+
+	}
+	public static void minMax(int a, int b, int c) {
+		if(a<b && b<c) {
+			System.out.println("Gia tri nho nhat la:" +a);
+			System.out.println("Gia tri lon nhat la:" +b);
+		}else if(b<a && a<c) {
+			System.out.println("Gia tri nho nhat la:" +b);
+			System.out.println("Gia tri lon nhat la:" +c);
+		}else if(c<b && b<a) {
+			System.out.println("Gia tri nho nhat la:" +c);
+			System.out.println("Gia tri lon nhat la:" +a);
+		}else if()
+		
+	}
+
+}

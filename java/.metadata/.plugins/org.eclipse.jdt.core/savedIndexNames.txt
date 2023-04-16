@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\Users\ADMIN\OneDrive\Desktop\1509\learn-to-dola\BE-1509\java\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+707611547.index
+1696264553.index
+4109028686.index

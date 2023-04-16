@@ -1,0 +1,23 @@
+package VongLap;
+
+public class While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int [] x= {23,43,245,242};
+int y=0;
+while (y<x.length) {
+	y=y+1;
+	System.out.println(y);
+}
+int [] a= {5,10,15,20};
+int b=3;
+while (b<a[3]) {
+	b=b+6;
+	System.out.println(b);
+			
+	
+}
+
+}
+}

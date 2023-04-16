@@ -1,0 +1,23 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		int x=scan.nextInt();
+		if (x<=10) {
+			System.out.println("Gia tri cua x <=10");
+			
+		}else{
+			System.out.println("Gia tri cua x>10");
+			
+		
+		}
+		System.out.println("Ket thuc chuong trinh");
+		   
+	}
+
+}

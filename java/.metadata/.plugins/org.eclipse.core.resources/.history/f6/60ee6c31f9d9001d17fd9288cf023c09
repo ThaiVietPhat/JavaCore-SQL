@@ -1,0 +1,31 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class PTBac2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Day la may tinh pt bac 2. Nhap vao he so a,b,c");
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		int c=scan.nextInt();
+		int delta=b*b-4*a*c;
+		
+			if(delta<0) {
+			System.out.println("PT vo nghiem" );
+			
+		}else if (delta==0) {
+			
+			System.out.println("pt co nghiem duy nhat x=" +(-b/2*a) );
+			
+			
+		}else {
+			System.out.println("pt co 2 nghiem phan biet");
+			System.out.println("x1=" );
+		}
+	}
+
+
+}

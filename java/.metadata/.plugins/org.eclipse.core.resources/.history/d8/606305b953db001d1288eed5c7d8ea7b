@@ -1,0 +1,14 @@
+package HamVaBien;
+
+public class CachSuDungHamVaBien {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		chuVi(10);
+	}
+
+	public static void chuVi(int i) {
+		i = i + 1;
+		System.out.println(i);
+	}
+}

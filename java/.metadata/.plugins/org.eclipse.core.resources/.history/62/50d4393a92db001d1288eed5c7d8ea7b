@@ -1,0 +1,13 @@
+package CauDieuKien;
+
+public class HInhChuNhat {
+public static float chuVi(float x, float y) {
+	return (x+y)*2;
+}
+public static float dienTich(float x, float y) {
+	return x*y;
+}
+
+
+
+}

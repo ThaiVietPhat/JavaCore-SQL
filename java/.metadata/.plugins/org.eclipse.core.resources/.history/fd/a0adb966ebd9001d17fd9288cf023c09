@@ -1,0 +1,19 @@
+package ThucHanh;
+
+public class HinhVuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+public static int chuViHinhVuong(int a) {
+	return 2*a;
+}
+public static int dienTichHinhVuong(int a) {
+	int p=a*a;
+	return p;
+}
+
+
+
+}

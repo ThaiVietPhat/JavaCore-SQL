@@ -1,0 +1,20 @@
+package ThucHanh;
+
+import java.util.Scanner;
+
+public class ChuViVaDienTich {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan=new Scanner(System.in);
+System.out.println("Chieu dai cua hinh chu nhat:");
+int x=scan.nextInt();
+System.out.println("Chieu rong cua hinh chu nhat:");
+int y=scan.nextInt();
+System.out.println("Chu vi va dien tich hinh chu nhat la:");
+System.out.println(HinhChuNhat.ChuViHinhChuNhat(x, y));
+System.out.println(HinhChuNhat.DienTichHinhChuNhat(x, y));
+
+	}
+
+}

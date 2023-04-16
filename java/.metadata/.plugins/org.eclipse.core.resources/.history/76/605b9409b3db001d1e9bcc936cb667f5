@@ -1,0 +1,17 @@
+package VongLap;
+
+public class WhileDo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int x[]= {5,10,15,20};
+int y=0;
+do {
+	System.out.println(y);
+	y=y+5;
+	System.out.println(y);
+}while(y<x[3]);
+
+	}
+
+}

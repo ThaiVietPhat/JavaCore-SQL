@@ -1,0 +1,10 @@
+package ThucHanh;
+
+public class HinhTron {
+public static float chuViHinhTron(float soPi,int r) {
+return 2*soPi*r;
+}
+public static float dienTichHinhTron(float soPi,int r) {
+return soPi*r*r;
+}
+}

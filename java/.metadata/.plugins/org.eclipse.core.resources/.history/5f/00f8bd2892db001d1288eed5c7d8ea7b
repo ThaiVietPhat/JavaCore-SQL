@@ -1,0 +1,43 @@
+package CauDieuKien;
+
+import java.util.Scanner;
+
+public class ChuViVaDienTich {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("1.Chu vi va dien tich hinh chu nhat");
+		System.out.println("2.chu vi va dien tich hinh vuong");
+		System.out.println("3.chu vi va dien tich hinh tron");
+		Scanner scan = new Scanner(System.in);
+		int z = scan.nextInt();
+		if (z == 1) {
+			System.out.println("Tinh chu vi va dien tich hinh chu nhat");
+			System.out.println("Vui long nhap lan luot chieu dai va chieu rong");
+			float x = scan.nextFloat();
+			float y = scan.nextFloat();
+			System.out.println("Chu vi hinh chu nhat la" + HInhChuNhat.chuVi(x, y));
+			System.out.println("Dien tich hinh chu nhat la" + HInhChuNhat.chuVi(x, y));
+
+		} else if (z == 2) {
+			System.out.println("Tinh chu vi va dien tich hinh vuong");
+			System.out.println("Vui long nhap gia tri canh hinh vuong");
+			float a = scan.nextFloat();
+			System.out.println("Chu vi hinh vuong la:" + HinhVuong.chuVi(a));
+			System.out.println("dien tich hinh vuong la" + HinhVuong.chuVi(a));
+
+		} else if (z == 3) {
+			System.out.println("Tinh chu vi va dien tich hinh tron");
+			System.out.println("Vui long nhap vao ban kinh gia tri");
+			float r = scan.nextFloat();
+			System.out.println("Chu vi cua hinh tron la" + hinhTron.chuVi(r));
+			System.out.println("Dien tich hinh tron la" + hinhTron.dienTich(r));
+
+		} else {
+			System.out.println("Ban da chon sai cu phap");
+		}
+		System.out.println("Ket thuc chuong trinh");
+
+	}
+
+}
